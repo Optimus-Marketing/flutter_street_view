@@ -5,7 +5,6 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter_google_street_view/flutter_google_street_view.dart';
 import 'package:flutter_google_street_view/src/state/street_view_state.dart'
-    if (dart.library.html) 'web/street_view_state.dart'
     if (dart.library.io) 'mobile/street_view_state.dart';
 
 class FlutterGoogleStreetView extends StatefulWidget {

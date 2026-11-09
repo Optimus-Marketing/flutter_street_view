@@ -43,4 +43,19 @@ void main() {
     ));
     await tester.pumpAndSettle(Duration(seconds: 5));
   });
+
+  testWidgets("Dispose before the native view is created",
+      (WidgetTester tester) async {
+    SystemChannels.platform_views.setMockMethodCallHandler((call) =>
+        call.method == "create" ? Completer<int>().future : Future.value());
+    addTearDown(() => SystemChannels.platform_views.setMockMethodCallHandler(
+        fakePlatformViewsController.fakePlatformViewsMethodHandler));
+
+    await tester.pumpWidget(MaterialApp(
+      home: FlutterGoogleStreetView(initPanoId: "WddsUw1geEoAAAQIt9RnsQ"),
+    ));
+    await tester.pumpWidget(Container());
+
+    expect(tester.takeException(), isNull);
+  });
 }

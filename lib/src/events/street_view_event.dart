@@ -1,6 +1,6 @@
 import 'dart:math';
 
-import 'package:street_view_platform_interface/street_view_platform_interface.dart';
+import 'package:flutter_google_street_view/src/platform_interface.dart';
 
 class StreetViewEvent<T> {
   /// The ID of the Street View this event is associated to.

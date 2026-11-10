@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'package:street_view_platform_interface/src/type/marker.dart';
+import 'package:flutter_google_street_view/src/type/marker.dart';
 
 import 'maps_object.dart';
 

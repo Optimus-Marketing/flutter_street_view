@@ -6,9 +6,9 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/services.dart';
 import 'package:plugin_platform_interface/plugin_platform_interface.dart';
-import 'package:street_view_platform_interface/src/method_channel/method_channel_street_view_flutter.dart';
-import 'package:street_view_platform_interface/src/type/latLng.dart';
-import 'package:street_view_platform_interface/street_view_platform_interface.dart';
+import 'package:flutter_google_street_view/src/method_channel/method_channel_street_view_flutter.dart';
+import 'package:flutter_google_street_view/src/type/latLng.dart';
+import 'package:flutter_google_street_view/src/platform_interface.dart';
 
 abstract class StreetViewFlutterPlatform extends PlatformInterface {
   StreetViewFlutterPlatform() : super(token: _token);

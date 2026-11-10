@@ -3,7 +3,7 @@ import 'dart:math';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter_google_street_view/src/state/street_view_base_state.dart';
-import 'package:street_view_platform_interface/street_view_platform_interface.dart';
+import 'package:flutter_google_street_view/src/platform_interface.dart';
 
 /// Callback method for when the streetView is ready to be used.
 ///

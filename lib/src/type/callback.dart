@@ -1,7 +1,7 @@
 import 'dart:math';
 
-import 'package:street_view_platform_interface/src/type/camera.dart';
-import 'package:street_view_platform_interface/src/type/street_view_panorama_orientation.dart';
+import 'package:flutter_google_street_view/src/type/camera.dart';
+import 'package:flutter_google_street_view/src/type/street_view_panorama_orientation.dart';
 
 /// Callback that receiving last camera position.
 ///

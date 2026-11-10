@@ -1,4 +1,4 @@
-import '../../street_view_platform_interface.dart';
+import '../platform_interface.dart';
 
 class StreetViewPanoramaOrientation {
   StreetViewPanoramaOrientation({this.bearing, this.tilt});

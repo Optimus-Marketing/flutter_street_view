@@ -1,7 +1,7 @@
-import 'package:street_view_platform_interface/src/type/camera.dart';
-import 'package:street_view_platform_interface/src/type/street_view_source.dart';
+import 'package:flutter_google_street_view/src/type/camera.dart';
+import 'package:flutter_google_street_view/src/type/street_view_source.dart';
 
-import '../../street_view_platform_interface.dart';
+import '../platform_interface.dart';
 import 'latLng.dart';
 
 class StreetViewPanoramaOptions {

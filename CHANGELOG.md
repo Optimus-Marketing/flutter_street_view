@@ -1,3 +1,17 @@
+## 4.0.0
+
+* **Breaking**: remove the Web-only options, methods and types (`ControlPosition`, `CloseClickListener` and the `Web only` setters of `StreetViewController`).
+* **Breaking**: stop exporting the internal platform interface, method channel, events and option types.
+* **Breaking**: `StreetViewPanoramaLink`, `StreetViewPanoramaLocation` and `StreetViewPanoramaOrientation` fields are non-nullable, `orientationToPoint` and `pointToOrientation` return `null` when the platform has no result, click callbacks receive `Point<int>`, `StreetViewSource` is an enum and `Marker.copyWith` uses the field names.
+* Free the native view, channel and lifecycle observer when the widget is disposed, and keep the reusable Android panoramas per activity.
+* Send camera, panorama and click events only when the widget has a listener for them.
+* Apply option changes made before the native view is ready, and keep the controller gesture flags in sync with the widget.
+* Fix duplicate replies on iOS when a panorama is reused, markers left on reused iOS panoramas and street names hidden after reuse.
+* Fix a crash on Android when the requested location has no panorama.
+* Keep the current camera values that `animateTo` does not set on Android.
+* `Android`: rewrite in idiomatic Kotlin with the Kotlin DSL, AGP `9.1.0`, Kotlin `2.4.0` and play-services-maps `20.0.0`.
+* `iOS`: rewrite in Swift without Objective-C.
+
 ## 3.2.0
 
 * Drop `Web` support.

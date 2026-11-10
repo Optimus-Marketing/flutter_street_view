@@ -1,3 +1,14 @@
+## 3.2.0
+
+* Drop `Web` support.
+* Merge `street_view_platform_interface` into this package, now at the repo root.
+* `Android`:
+    - upgrade Android Gradle Plugin to `8.13.1` and Kotlin to `2.2.21`, compile with Java `17`.
+    - upgrade com.google.android.gms:play-services-maps to `19.2.0`.
+    - set android SDK min version to `24`, compile version to the one of Flutter.
+* `iOS`, set min version to `15.0`.
+* Fix a null check error when the widget is disposed before the native view is created.
+
 ## 3.1.4
 
 * `Android`:

@@ -1,6 +1,10 @@
-library flutter_google_street_view;
-
-export 'package:flutter_google_street_view/src/platform_interface.dart';
-export 'package:flutter_google_street_view/src/street_view.dart';
-
-export 'package:flutter_google_street_view/src/controller.dart';
+export 'src/street_view.dart';
+export 'src/types/bitmap_descriptor.dart';
+export 'src/types/callbacks.dart';
+export 'src/types/lat_lng.dart';
+export 'src/types/marker.dart';
+export 'src/types/street_view_panorama_camera.dart';
+export 'src/types/street_view_panorama_link.dart';
+export 'src/types/street_view_panorama_location.dart';
+export 'src/types/street_view_panorama_orientation.dart';
+export 'src/types/street_view_source.dart';

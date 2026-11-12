@@ -15,7 +15,7 @@ dependencies:
       ref: v4.0.0
 ```
 
-Requires Flutter 3.35 or newer, Android API 24 or newer and iOS 15 or newer.
+Requires Flutter 3.41 or newer, Android API 24 or newer and iOS 15 or newer.
 
 ## Getting Started
 

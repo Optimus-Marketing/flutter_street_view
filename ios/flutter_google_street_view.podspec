@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'flutter_google_street_view'
-  s.version          = '4.0.0'
+  s.version          = '4.1.0'
   s.summary          = 'A flutter plugin of google street view in iOS and Android applications.'
   s.description      = <<-DESC
 A flutter plugin of google street view in iOS and Android applications.

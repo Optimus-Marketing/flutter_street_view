@@ -1,3 +1,8 @@
+## 4.1.0
+
+* `iOS`: add Swift Package Manager support, keeping CocoaPods support.
+* Require Flutter `3.41.0` and Dart `3.11.0` or newer.
+
 ## 4.0.0
 
 * **Breaking**: remove the Web-only options, methods and types (`ControlPosition`, `CloseClickListener` and the `Web only` setters of `StreetViewController`).

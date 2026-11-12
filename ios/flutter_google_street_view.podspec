@@ -9,7 +9,7 @@ A flutter plugin of google street view in iOS and Android applications.
   s.license          = { :file => '../LICENSE' }
   s.author           = { 'ZYZ' => 'pk279700197@gmail.com' }
   s.source           = { :path => '.' }
-  s.source_files     = 'Classes/**/*'
+  s.source_files     = 'flutter_google_street_view/Sources/flutter_google_street_view/**/*.swift'
   s.dependency 'Flutter'
   s.dependency 'GoogleMaps'
   s.static_framework = true
